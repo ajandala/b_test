@@ -1,29 +1,24 @@
-# README #
+# BRUJULA.ES - PRUEBA JAVA #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+Dado el siguiente diagrama UML:
+![Diagram.png](https://bitbucket.org/repo/oLqA9Kg/images/1155802627-Diagram.png)
 
-### What is this repository for? ###
+Se requiere crear las clases, variables y métodos para modelar el diagrama. Además se desea el siguiente comportamiento:
+* Como es habitual, no se han referenciado en el diagrama los métodos getters y setters de los atributos de cada clase.
+* El método list() deberá generar una Lista con los profesores del departamento en orden alfabético, según su apellido.
+* El método addProfessor(Professor) no podrá añadir dos profesores repetidos, para ello deberemos contemplar Nombre y Apellidos del profesor.
+* El método addProfessor(Professor) deberá comprobar también que los campos Department y DepartmentName coinciden.
+* Si se crea un ActingProfessor, con fecha de fin menor a la actual, deberá lanzarse la excepción correspondiente y manejarse apropiadamente lanzándose por la salida del sistema apropiada.
+* El método getCompleteName deberá componer el nombre y apellidos del profesor en el orden: “apellidos, nombre”
+* El método getAge() deberá calcular la edad de la persona y devolverla como entero.
+* Cualquier parámetro de tipo texto, no deberá sobrepasar los 20 caracteres, ni estar vacíos. En otro caso se espera una excepción.
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+Para controlar estos comportamientos se da el armazón del proyecto en este repositorio el en el cual existe una clase con ciertos Unit Tests los cuales deberán pasar correctamente.
 
-### How do I get set up? ###
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+# Instrucciones de entrega #
+Se piden los siguientes pasos para la entrega de las pruebas:
 
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+1. Crear un fork privado del repositorio dado.
+2. Dar acceso al usuario arquitectura-brujula a ese fork
+3. Realizar un pull request hacia el repositorio de arquitectura-brujula en el cual se realizarán anotaciones y comentarios. Posteriormente este PR se cancelará.
