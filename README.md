@@ -19,6 +19,6 @@ Para controlar estos comportamientos se da el armazón del proyecto en este repo
 # Instrucciones de entrega #
 Se piden los siguientes pasos para la entrega de las pruebas:
 
-1. Crear un **fork privado** del repositorio dado.
-2. Dar acceso al usuario **arquitectura-brujula** a ese fork
-3. Realizar un **pull request** hacia el repositorio de arquitectura-brujula en el cual se realizarán anotaciones y comentarios. Posteriormente este PR se cancelará.
+1. Crear la solución compilable y adecuada a las restricciones indicadas.
+2. Ejecutar desde la consola de comandos "mvn clean"
+3. Empaquetar en un zip la carpeta con el código de la solución y enviarla de vuelta a [mailto:rrhh@brujula.es](Recursos Humanos Brujula)
