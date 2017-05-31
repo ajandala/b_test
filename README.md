@@ -21,4 +21,4 @@ Se piden los siguientes pasos para la entrega de las pruebas:
 
 1. Crear la solución compilable y adecuada a las restricciones indicadas.
 2. Ejecutar desde la consola de comandos "mvn clean"
-3. Empaquetar en un zip la carpeta con el código de la solución y enviarla de vuelta a [mailto:rrhh@brujula.es](Recursos Humanos Brujula)
+3. Empaquetar en un zip la carpeta con el código de la solución y enviarla de vuelta a [Recursos Humanos Brujula](mailto:rrhh@brujula.es)
