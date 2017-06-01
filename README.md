@@ -17,8 +17,8 @@ Se requiere crear las clases, variables y métodos para modelar el diagrama. Ade
 Para controlar estos comportamientos se da el armazón del proyecto en este repositorio el en el cual existe una clase con ciertos *Unit Tests* los cuales **deberán pasar correctamente.**
 
 # Instrucciones de entrega #
-Se piden los siguientes pasos para la entrega de las pruebas:
+Se pide seguir los siguientes pasos para la entrega de la prueba:
 
 1. Crear la solución compilable y adecuada a las restricciones indicadas.
 2. Ejecutar desde la consola de comandos "mvn clean" desde el directorio raíz de la prueba.
-3. Empaquetar en un zip la carpeta con el código de la solución y enviar a: [rrhh@brujula.es](mailto:rrhh@brujula.es)
+3. Empaquetar en un zip la carpeta con el código de la solución y enviar a [rrhh@brujula.es](mailto:rrhh@brujula.es)
