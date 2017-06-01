@@ -20,5 +20,5 @@ Para controlar estos comportamientos se da el armazón del proyecto en este repo
 Se piden los siguientes pasos para la entrega de las pruebas:
 
 1. Crear la solución compilable y adecuada a las restricciones indicadas.
-2. Ejecutar desde la consola de comandos "mvn clean"
-3. Empaquetar en un zip la carpeta con el código de la solución y enviarla de vuelta a [Recursos Humanos Brujula](mailto:rrhh@brujula.es)
+2. Ejecutar desde la consola de comandos "mvn clean" desde el directorio raíz de la prueba.
+3. Empaquetar en un zip la carpeta con el código de la solución y enviar a: [rrhh@brujula.es](mailto:rrhh@brujula.es)
