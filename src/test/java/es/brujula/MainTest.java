@@ -21,7 +21,7 @@ import static org.junit.Assert.assertEquals;
  * Created by jramirez on 25/01/2017.
  */
 public class MainTest {
-   private static final String MATH_DEPA1TMENT = "Math";
+   private static final String MATH_DEPARTMENT = "Math";
    private static final String IDIOMS_DEPARTMENT = "IDIOMS";
    private static final Integer YEARS_90 = 1997;
    private static final Integer YEARS_80 = 1987;
