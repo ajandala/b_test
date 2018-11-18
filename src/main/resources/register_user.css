@@ -13,33 +13,49 @@
     padding: 15px;
 }
 
+label {
+    display: block;
+}
+
+.name, .surname, .phone, .email, .sexo {
+    width: 50%;
+}
+
 .name {
     float: left;
-    width: 50%;
 }
 
 .surname {
     float: right;
-    width: 50%;
 }
 
 .phone {
     float: left;
-    width: 50%;
 }
 
 .email {
     float: right;
-    width: 50%;
 }
 
 .sexo {
     float: left;
-    width: 50%;
 }
 
 .button {
     clear: both;
     display: flex;
     margin: 0 auto;
+}
+
+.success, .error {
+    text-align: center;
+    display: none;
+}
+
+.success {
+    color: green;
+}
+
+.error {
+    color: red;
 }

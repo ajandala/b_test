@@ -1,6 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+        $("#submit").click(function() {
+            if (validateForm()) {
+                $("#okText").show();
+                $("#errorText").hide();
+            } else {
+                $("#okText").hide();
+                $("#errorText").show();
+            }
+        });
+    });
+
+    function validateForm() {
+        var valid = true;
+        valid &= validateById("name");
+        valid &= validateById("surname");
+        valid &= validateById("phone");
+        valid &= validateById("email");
+
+        return valid;
+    };
+
+    function validateById(id) {
+        inpObj = document.getElementById(id);
+        if (!inpObj.checkValidity()) {
+            return false;
+        } else {
+            return true;
+        }
+    }
+
+    </script>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="register_user.css">
     <title>Title</title>
@@ -11,28 +45,34 @@
     </div>
     <div class="content">
         <h1>Especifíca tus datos personales:</h1>
-            <form id="register_form">
-                <div class="name">
-                    <p>Nombre</p><input type="text" name="name">
+        <form id="registerForm" action="">
+            <div class="name">
+                    <label for="name">Nombre</label>
+                    <input id ="name" type="text" name="name" maxlength="10" required>
                 </div>
                 <div class="surname">
-                    <p>Apellidos</p><input type="text" name="surname">
+                    <label for="surname">Apellidos</label>
+                    <input id="surname" type="text" name="surname" maxlength="20" required>
                 </div>
                 <div class="phone">
-                    <p>Teléfono</p><input type="text" name="phone">
+                    <label for="phone">Teléfono</label>
+                    <input id="phone" type="digits" name="phone" maxlength="9">
                 </div>
                 <div class="email">
-                    <p>Correo Electrónico</p><input type="text" name="email">
+                    <label for="email">Correo Electrónico</label>
+                    <input id="email" type="email" name="email" required>
                 </div>
                 <div class="sexo">
-                    <p>Sexo</p>
-                    <select>
+                    <label for="sexo">Sexo</label>
+                    <select id="sexo">
                         <option value="male">Hombre</option>
                         <option value="female">Mujer</option>
                     </select>
                 </div>
-            </form>
-        <button class="button" type="submit" form="register_form">Guardar</button>
+        </form>
+        <button id="submit" class="button">Guardar</button>
+        <div id="okText" class="success">El formulaio se ha rellenado correctamente</div>
+        <div id="errorText" class="error">El formulaio no cumple alguna de las restricciones</div>
     </div>
 </body>
 </html>
