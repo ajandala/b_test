@@ -2,7 +2,6 @@ package es.brujula.entities;
 
 import es.brujula.exception.BrujulaException;
 
-import java.time.LocalDate;
 import java.time.Year;
 import java.util.Objects;
 
