@@ -1,0 +1,45 @@
+.header, .footer {
+    width: 100%;
+    clear: both;
+}
+
+.content {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin:  auto;
+    width: fit-content;
+    border-style: solid;
+    padding: 15px;
+}
+
+.name {
+    float: left;
+    width: 50%;
+}
+
+.surname {
+    float: right;
+    width: 50%;
+}
+
+.phone {
+    float: left;
+    width: 50%;
+}
+
+.email {
+    float: right;
+    width: 50%;
+}
+
+.sexo {
+    float: left;
+    width: 50%;
+}
+
+.button {
+    clear: both;
+    display: flex;
+    margin: 0 auto;
+}

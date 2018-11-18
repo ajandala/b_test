@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="register_user.css">
+    <title>Title</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Header</h1>
+    </div>
+    <div class="content">
+        <h1>Especifíca tus datos personales:</h1>
+            <form id="register_form">
+                <div class="name">
+                    <p>Nombre</p><input type="text" name="name">
+                </div>
+                <div class="surname">
+                    <p>Apellidos</p><input type="text" name="surname">
+                </div>
+                <div class="phone">
+                    <p>Teléfono</p><input type="text" name="phone">
+                </div>
+                <div class="email">
+                    <p>Correo Electrónico</p><input type="text" name="email">
+                </div>
+                <div class="sexo">
+                    <p>Sexo</p>
+                    <select>
+                        <option value="male">Hombre</option>
+                        <option value="female">Mujer</option>
+                    </select>
+                </div>
+            </form>
+        <button class="button" type="submit" form="register_form">Guardar</button>
+    </div>
+</body>
+</html>
